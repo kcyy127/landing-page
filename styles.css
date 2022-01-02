@@ -1,0 +1,194 @@
+* {
+    font-family: Roboto, Helvetica, sans-serif;
+}
+
+.box {
+    display: flex;
+}
+
+.box.top, .box.content, .box.quote, .box.text {
+    flex-direction: column;
+}
+
+.box.top, footer {
+    background: #1F2937;
+    color: #F9FAF8;
+}
+
+.box.top {
+    padding: 0px 240px;
+}
+
+footer {
+    padding: 24px;
+    text-align: center;
+}
+
+.box.hero {
+    margin: 180px 0px 124px;
+    gap: 72px;
+}
+
+.hero .text {
+    flex-direction: column;
+    
+}
+
+.hero img {
+    width: 400px;
+    height: auto;
+}
+
+nav a {
+    font-size: 20px;
+    color: #e5e7eb81;
+}
+
+nav a.header {
+    color: #F9FAF8;
+    font-size: 28px;
+    font-weight: bold;
+    margin-right: auto;
+}
+
+.box.top nav {
+    gap: 18px;
+    margin: 36px 0px 0px;
+}
+
+.hero .text h1 {
+    font-size: 64px;
+    margin: 0px 0px;
+    
+}
+
+.hero .text p {
+    font-size: 24px;
+    color: #e5e7eb81;
+    margin: 24px 0px;
+}
+
+.text button {
+    background: #3882F6;
+    border: none;
+    font-weight: 600;
+    font-size: 24px;
+    border-radius: 8px;
+    padding: 12px;
+    color: white;
+    width: 180px;
+    margin: 8px 0px;
+}
+
+.hero .text {
+    flex: 1;
+}
+
+.hero .image img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 360px;
+    width: auto;
+    flex: 1 1 auto;
+
+}
+
+.content h2 {
+    text-align: center;
+    margin: 48px 0px 64px;
+    font-size: 42px;
+}
+
+.box.content {
+    padding: 72px 0px;
+}
+
+.images div {
+    width: 240px;
+}
+
+.images img {
+    width: 240px;
+    height: 240px;
+    object-fit: cover;
+    border: 8px solid #3882F6;
+    border-radius: 24px;
+}
+
+.images h3 {
+    color: #152937;
+    font-size: 24px;
+    margin: 16px 0px 4px;
+}
+
+.images p {
+    color: #152937a8;
+    font-size: 20px;
+    margin: 8px 0px;
+}
+
+.images {
+    justify-content: center;
+}
+
+div.images {
+    gap: 108px;
+}
+
+
+.box.quote {
+    background-color: #E5E7EB;
+    padding: 144px 360px;
+}
+
+.quote .content {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    margin: 0px;
+}
+
+.quote .author {
+    font-size: 28px;
+    text-align: end;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.btn {
+    margin: 108px 240px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 12px;
+    padding: 48px 144px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn button {
+    margin-left: auto;
+    margin-right: 0px;
+    width: 144px;
+    height: 48px;
+    border: 0.15em solid white;
+    color: white;
+    border-radius: 12px;
+    font-size: 20px;
+    background-color: transparent;
+}
+
+.btn h2, .btn p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.btn h2 {
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.btn p {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.719);
+}
